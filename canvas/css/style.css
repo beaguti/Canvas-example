@@ -9,6 +9,7 @@
 }
 body {
     background: #F2F2F2;
+    font-family: 'Signika';
 }
 #c {
     display: block;
@@ -21,9 +22,12 @@ body {
     width: auto;
     max-width: 420px;
     height: auto;
-    background: #f8f8f8;
+    background-color: #8f1122;
     border-bottom-right-radius: 10px;
     border:1px solid #ccc;
+}
+#info p{
+  color: #ffff;
 }
 #top {
     background: #fff;
@@ -33,19 +37,11 @@ body {
     border-bottom: 1px solid #eee;
 }
 p {
-    font-family: Arial, sans-serif;
+    font-family: 'Signika';
     color: #666;
     text-align: justify;
     font-size: 16px;
     margin: 0px 16px;
-}
-#github, #twitter {
-  color:#3377ee;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  margin: 0 auto;
-  text-align: center;
-  text-decoration:none;
 }
 .center {
   text-align: center;
@@ -55,65 +51,23 @@ p {
   white-space:nowrap;
   font-size:19px;
   background:rgba(0,0,0,0.1);
+  color: rgb(143, 17, 34);
   padding:8px 12px;
   border-radius:8px;
   display:block;
-  color:#888;
-}
-#net > span {
-  color:#3377ee;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-  text-decoration:none;
 }
 a {
-    font-family: sans-serif;
-    color: #444;
+    font-family: 'Signika';
     text-decoration: none;
     font-size: 20px;
+    color: white;
 }
-#site {
-    float: left;
-    margin: 10px;
-    color: #ff9900;
-  border-bottom: 1px dashed #ccc;
-  padding-bottom:3px
+
+#top{
+  background-color: #8f1122;
 }
-#site:hover {
-    color: #ffaa11;
-}
+
 #close {
     float: right;
-    margin: 10px;
-}
-#p {
-    font-family: Verdana, sans-serif;
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
-    color: #4099ff;
-    border: 1px dashed #4099ff;
-    padding: 4px 8px;
-}
-
-#new {
-  width: 100%;
-  text-align: center;
-  font-size: 18px;
-  font-family: Helvetica;
-  margin-top: 12px;
-}
-
-#new a {
-  font-size: 20px;
-  color: #4099ff;
-}
-
-.bull {
-  opacity: 0.3;
-  margin: 0 6px;
-  font-size: 14px;
+    margin: 10px;    
 }
